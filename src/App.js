@@ -1,25 +1,58 @@
-import logo from './logo.svg';
+import React from 'react';
+import SignIn from './components/SignIn/SignIn.js';
+import Register from './components/Register/Register.js';
+import TextBox from './components/TextBox/TextBox.js';
+import Sidebar from './components/Sidebar/Sidebar.js';
+import ParticlesBg from 'particles-bg'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      route: 'signin',
+      isSignedIn: false,
+      text: ""
+    }
+  }
+
+
+
+  onRouteChange = (route) => {
+    if (route === 'signout') {
+      this.setState({isSignedIn: false})
+    } else if (route === 'home') {
+      this.setState({isSignedIn: true})
+    }
+    this.setState({route: route});
+  }
+
+ // handleClick = (newText) => {
+  //  this.setState({ text: newText});
+ // }
+
+
+  render() {
+    const {route} = this.state;
+    return (
+      <div className="App">
+        <ParticlesBg type="cobweb" bg={true} color="#FFFFFF" />
+        { route === 'home'
+          ?  ( <div className="">
+              
+             </div> )
+          : (
+            route === 'signin'
+            ? <SignIn onRouteChange={this.onRouteChange}/>
+            : <Register onRouteChange={this.onRouteChange}/>
+          )  
+        }
+      </div>
+    );
+  }
+
+
+
 }
 
 export default App;
