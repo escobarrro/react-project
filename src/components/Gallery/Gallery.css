@@ -1,0 +1,29 @@
+h1 {
+    padding-top: 10px;
+    font-size: 40px;
+}
+.container {
+
+    width: 1600px;
+    height: 700px;
+    padding-left: 75px;
+    margin-top: 50px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  .gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+    transition: transform 0.2s ease;
+  }
+
+  img:hover {
+    transform: scale(1.2);
+  }
