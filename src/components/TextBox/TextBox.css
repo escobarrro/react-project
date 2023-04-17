@@ -1,0 +1,11 @@
+#textbox {
+    width: 1600px;
+    height: 750px;
+    background: rgba(255,255,255, 0.3);
+    margin-left: 75px;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 300px;
+}
