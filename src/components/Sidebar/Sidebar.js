@@ -25,15 +25,13 @@ class Sidebar extends React.Component {
             <li onClick={() => this.props.handleClick(
                 <div style={{padding: "20px", lineHeight: "1.7"}}>
                     <h1 style={{textAlign: "center", fontSize: "35px"}}>Co to Front-end</h1>
-                    <p style={{ textAlign: "justify", fontSize: "17px" }}>Front-end to pojęcie odnoszące się do interaktywnej części strony internetowej, z którą użytkownik ma bezpośredni kontakt. Jest to zbiór technologii, narzędzi i języków programowania używanych do tworzenia interfejsów użytkownika, które obejmują wygląd, styl i zachowanie strony internetowej. Front-end zazwyczaj składa się z trzech podstawowych języków programowania: HTML, CSS i JavaScript. HTML służy do definiowania struktury strony internetowej, CSS do jej stylizacji i formatowania, a JavaScript do dodawania interaktywności, animacji i efektów specjalnych. Front-end jest ważnym elementem procesu projektowania i tworzenia stron internetowych, ponieważ zapewnia użytkownikom intuicyjny i łatwy w użyciu interfejs użytkownika. Oprócz podstawowych technologii jak HTML, CSS i JavaScript, front-end rozwija się również dzięki narzędziom i bibliotekom, które ułatwiają i przyspieszają pracę nad interfejsem użytkownika.</p>
+                    <p style={{ textAlign: "justify", fontSize: "18px" }}>Front-end to pojęcie odnoszące się do interaktywnej części strony internetowej, z którą użytkownik ma bezpośredni kontakt. Jest to zbiór technologii, narzędzi i języków programowania używanych do tworzenia interfejsów użytkownika, które obejmują wygląd, styl i zachowanie strony internetowej. Front-end zazwyczaj składa się z trzech podstawowych języków programowania: HTML, CSS i JavaScript. HTML służy do definiowania struktury strony internetowej, CSS do jej stylizacji i formatowania, a JavaScript do dodawania interaktywności, animacji i efektów specjalnych. Front-end jest ważnym elementem procesu projektowania i tworzenia stron internetowych, ponieważ zapewnia użytkownikom intuicyjny i łatwy w użyciu interfejs użytkownika. Oprócz podstawowych technologii jak HTML, CSS i JavaScript, front-end rozwija się również dzięki narzędziom i bibliotekom, które ułatwiają i przyspieszają pracę nad interfejsem użytkownika.</p>
                     <h2 style={{textAlign: "center"}}>Popularne narzędzia front-endowe</h2>
-                    <ul style={{lineHeight: "2.4"}}>
-                    <li style={{ fontSize: "17px" }}>Frameworki, takie jak React, Angular i Vue, które ułatwiają tworzenie skomplikowanych interfejsów użytkownika i aplikacji webowych</li>
-                    <li style={{ fontSize: "17px" }}>Biblioteki, takie jak jQuery, Bootstrap i Font Awesome, które udostępniają gotowe elementy i style, co przyspiesza proces tworzenia stron internetowych</li>
-                    <li style={{ fontSize: "17px" }}>Edytory kodu, takie jak Visual Studio Code, Sublime Text czy Atom, które oferują przyjazne środowiska pracy dla programistów front-endowych</li>
+                    <ul style={{lineHeight: "2"}}>
+                    <li style={{ fontSize: "18px" }}>Frameworki, takie jak React, Angular i Vue, które ułatwiają tworzenie skomplikowanych interfejsów użytkownika i aplikacji webowych</li>
+                    <li style={{ fontSize: "18px" }}>Biblioteki, takie jak jQuery, Bootstrap i Font Awesome, które udostępniają gotowe elementy i style, co przyspiesza proces tworzenia stron internetowych</li>
+                    <li style={{ fontSize: "18px" }}>Edytory kodu, takie jak Visual Studio Code, Sublime Text czy Atom, które oferują przyjazne środowiska pracy dla programistów front-endowych</li>
                     </ul>
-                    <p style={{ textAlign: "justify", fontSize: "17px" }}>Podsumowując w dzisiejszych czasach rola front-end developera staje się coraz ważniejsza, ponieważ wzrasta liczba urządzeń, na których korzystamy z internetu (np. smartfony, tablety, komputery) oraz coraz bardziej rozbudowane wymagania dotyczące interaktywności i estetyki stron internetowych.</p>
-                    /
                 </div>
 
             )}>
@@ -57,12 +55,6 @@ class Sidebar extends React.Component {
                 <div style={{padding: "20px", lineHeight: "2"}}>  
                 <h1 style={{textAlign: "center", fontSize: "35px"}}>React - podstawowe informacje</h1>
                 <p style={{ fontSize: "17px" }}>React to biblioteka JavaScript do tworzenia interaktywnych interfejsów użytkownika. React został stworzony przez Facebooka i jest powszechnie stosowany do tworzenia aplikacji internetowych. Główną cechą Reacta jest deklaratywny styl programowania, który umożliwia tworzenie skomplikowanych interfejsów użytkownika z mniejszą ilością kodu. React jest również bardzo elastyczny i łatwo go integrować z innymi bibliotekami lub frameworkami JavaScript. W React korzysta się z tzw. komponentów, które reprezentują fragmenty interfejsu użytkownika i pozwalają na ich ponowne użycie. React wprowadza również koncepcję jednokierunkowego przepływu danych (ang. "one-way data binding"), co oznacza, że zmiany w danych powodują automatyczną aktualizację widoku, ale zmiany w widoku nie wpływają bezpośrednio na dane. React wykorzystuje wirtualny DOM (ang. "virtual DOM"), czyli wirtualną reprezentację drzewa elementów interfejsu użytkownika, co umożliwia efektywną aktualizację tylko tych elementów, które uległy zmianie, a nie całego drzewa. React jest również często używany z innymi narzędziami, takimi jak Redux, React Router czy Axios, które ułatwiają zarządzanie stanem aplikacji, nawigację między widokami oraz komunikację z serwerem. W React zostały napisane między innymi takie Aplikacje jak Facebook, Tesla, Skype, Discord czy też Instagram. W internecie można znaleźć masę kursów zarówno dla początkujących jak i tych bardziej zaawansowanych, React jest bardzo przyszłościowym narzędziem który cały czas się rozwija i powiększa o nowe funkcje. React pozwala nam na zbudowanie wpełni od zera estetycznej oraz funkcjonalnej aplikacji, pozwala on nam na dodawane wielu róznych rozszerzeń oraz dodatków, które znacznie ułatwiają nam prace.</p>
-
-
-
-
-
-
                 </div>
             )}><svg
             viewBox="0 0 24 24"
